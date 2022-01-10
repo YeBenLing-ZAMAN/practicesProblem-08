@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Oswald&display=swap');
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Mukta', sans-serif;
+    width: 100%;
+    height: 900px;
+}
+.contianer{
+    display: flex;
+}
+.image{
+    width: 50%;
+    /* border: 2px solid tan; */
+    display: flex;
+    /* x-axis ee center chole asbe */
+    justify-content: center;
+    /* y-axis ee center chole asbe  */
+    align-items: center;
+}
+img{
+    width: 400px;
+    height: 400px;
+}
+.details{
+    width: 50%;
+    padding-left: 30px;
+    /* border: 2px solid red; */
+}
+h1{
+    font-size: 40px;
+    word-spacing: .4em;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.items,.items1,.items2{
+    display: flex;
+}
+.ram{
+    width: 20%;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+.ssd{
+    width: 20%;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+.date{
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+.select:hover{
+    background-color: skyblue;
+    border: 2px solid tomato;
+    font-weight: bold;
+}
+
+.Price{
+    margin-top: 35px;
+}
+h3{
+    margin-top: 40px;
+    margin-bottom: 1.72px;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td{
+    border-bottom: 2px solid black;
+    padding-top: 5px;
+    padding-right: 60px;
+}
+#totalPrice{
+    background-color: skyblue;
+    font-family: 'Oswald', sans-serif;
+
+}
+.dollar{
+    text-align: right;
+}
+
+.promo{
+    width: 60%;
+    margin-top: 20px;
+}
+.promo p{
+    display: inline;
+    font-family: 'Oswald', sans-serif;
+
+}
+.promo input{
+    padding: 8px;
+}
+
+button{
+    margin-left: 20px;
+    padding: 8px;
+    width: 120px;
+    background-color:tomato;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.5em;
+}
+button:hover{
+    background-color:red ;
+}
